@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdisonOfferwallCommon",
-            url: "https://github.com/adison-ads/adison-offerwall-common/releases/download/0.9.0/AdisonOfferwallCommon.zip",
-            checksum: "7748eee9ec2a2019eca6c68ef7d77b163c2899d66512571ee0c4bae5192b179b"
+            url: "https://github.com/adison-ads/adison-offerwall-common/releases/download/0.9.2/AdisonOfferwallCommon.zip",
+            checksum: "b3dbafc5b2dfb19e074f6193bf8f8bd0485234f237bb37e5aebc053a8e52924a"
         )
     ]
 )
