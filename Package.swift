@@ -3,6 +3,9 @@
 
 import PackageDescription
 
+let version = "0.9.4"
+let checksum = "e37ff26797784fa0dc0b733d340d07a94835cc7b26210c2fc659bfa3173c268c"
+
 let package = Package(
     name: "AdisonOfferwallCommon",
     products: [
@@ -13,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdisonOfferwallCommon",
-            url: "https://github.com/adison-ads/adison-offerwall-common/releases/download/0.9.4/AdisonOfferwallCommon.zip",
-            checksum: "e37ff26797784fa0dc0b733d340d07a94835cc7b26210c2fc659bfa3173c268c"
+            url: "https://github.com/adison-ads/adison-offerwall-common/releases/download/\(version)/AdisonOfferwallCommon.zip",
+            checksum: checksum
         )
     ]
 )
