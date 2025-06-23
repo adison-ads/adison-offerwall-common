@@ -3,8 +3,8 @@
 
 import PackageDescription
 
-let version = "0.10.2"
-let checksum = "a5fa4e0d63af678c5ab00d39761aa390072be822c3b4338dd33eff243591b660"
+let version = "0.10.4"
+let checksum = "cce4a248017f17f8ad283f8c3cf6364838053098a66999dcbd8d31bdd1e2d91e"
 
 let package = Package(
     name: "AdisonOfferwallCommon",
